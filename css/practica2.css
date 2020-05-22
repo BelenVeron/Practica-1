@@ -1,0 +1,8 @@
+
+header {
+    background-color: plum;
+    display: flex;
+    border: solid 5px rebeccapurple;
+    text-align: center;
+    margin:10px 10px ;
+}

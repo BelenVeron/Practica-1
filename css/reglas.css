@@ -1,0 +1,249 @@
+.header{
+    background-color:rgb(82, 57, 57);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.menu {
+    height: inherit;
+}
+.header ol {
+    display: flex;
+    height: inherit;
+}
+.header ol li {
+    height: inherit;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+h1 {
+font-size: 40px;
+line-height: 1.5;
+letter-spacing: -.2px;
+color: black;
+margin: 0;
+}
+h2 {
+    color: coral;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+h1 strong{
+    color: coral;
+}
+ol,
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+figure{
+    margin: 0px;
+
+}
+.hero {
+    height: 300px;
+    /*background-image: url('../imagenes/foto.jpg');*/
+    background-color: whitesmoke;
+    /*background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-image {
+    object-fit:cover ;
+}
+.project{
+    border: 1px solid rgb(82, 57, 57);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 500;
+    height:500;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.project-course {
+    margin: 10px 0;
+}
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px 0;
+
+}
+.project-date {
+    margin: 10px 0;
+}
+.project-url {
+    margin: 10px 0;
+}
+.-details {
+    width: 500px;
+}
+.project-imageContainer {
+    width: 500px;
+}
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.project-description {
+    width: 450px;
+    font-size: 20px;
+}
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.event-list-title {
+    margin-left: 20px;
+}
+.event {
+border: 1px solid rgb(82, 57, 57);
+border-radius: 10px;
+margin: 10px;
+width: 480px;
+border-radius: 10px;
+overflow: hidden;
+background: whitesmoke;
+}
+.event img {
+    object-fit: cover;
+    width: 100%;
+}
+.event-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.event-description {
+    text-align: left;
+}
+.event-url {
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: coral;
+    border-radius: 5px;
+}
+.contact {
+    background-color: whitesmoke;
+    color: black;
+    height: 160px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.footer {
+    color: white;
+    background-color: rgb(82, 57, 57);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.footer img {
+    vertical-align: middle;
+}
+.footer a {
+   color: white; 
+}
+.social {
+  
+}
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+.social-link.twitter {
+    background-image: url('../imagenes/twitter.png') ;
+    background-size: 100%;
+}
+.social-link.facebook {
+    background-image: url('../imagenes/facebook.png') ;
+    background-size: 100%; 
+}
+.social-link.github {
+    background-image: url('../imagenes/gethub.png') ;
+    background-size: 100%; 
+}
+.social-link.instagram {
+    background-image: url('../imagenes/instagram.jpg') ;
+    background-size: 100%; 
+}
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../imagenes/gmail.jpg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    
+}
+.form-email button{
+    display: block;
+    margin-top: 5px;
+    background: transparent;
+    color: black;
+    padding: 5px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px auto 0;
+
+}
+.form-email h3 {
+    font-family:  font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+    /*border: 1px solid red;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
+}
